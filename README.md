@@ -7,7 +7,7 @@ Account Generator Bot, written in GoLang via gotgbot library.
  `BOT_TOKEN` - Get it from [@BotFather](https://t.me/BotFather)   
  `CHANNEL_ID` - Channel ID of Join Check Channel.   
  `CHANNEL_USERNAME` - Channel Username of Join Check Channel.   
- `ACC_NAME` - Name of Service of Which You're making Account Generator.
+ `ACC_NAME` - Name of Service of Which You're making Account Generator. <br>
  `LOGS` - ID of Logs Chat (Optional).
 -----------------    
 
