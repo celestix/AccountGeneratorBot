@@ -11,6 +11,8 @@ Account Generator Bot, written in GoLang via gotgbot library.
  `LOGS` - ID of Logs Chat (Optional).
 -----------------    
 
+## Adding Accounts 
+To Add Accounts Just Replace Combos after line 60 in main.go
 ## Deploying
 Deploy Via Heroku.
 <p>
