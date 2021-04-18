@@ -1,0 +1,39 @@
+{
+  "name": "Account Generator Bot",
+  "description": "Golang based  telegram bot to generate accounts.",
+  "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot"
+    ],
+  "repository": "https://github.com/anonyindian/AccountGeneratorBot",
+  "website": "https://t.me/xnony",
+  "success_url": "https://t.me/StarDevs",
+  "env": {
+    "TOKEN": {
+      "description": "Bot Token, Get It From @BotFather.",
+      "value": ""
+    },
+    "CHANNEL_ID": {
+      "description": "Permanent Telegram Chat ID Of Your Force-Sub Channel.",
+      "value": ""
+    },
+    "CHANNEL_USERNAME": {
+      "description": "Username Of Your Force-Sub Channel.",
+      "value": ""
+    },
+    "ACC_NAME": {
+      "description": "Name Of The Account The Bot Generates.",
+      "value": ""
+    },
+    "LOGS": {
+      "description": "Permanent Telegram Chat ID Of Bot Logs (Leave as it is for turning off).",
+      "value": "False"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
