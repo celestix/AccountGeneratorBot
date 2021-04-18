@@ -1,5 +1,5 @@
 //   Account Generator Bot
-//   Copyright (C) 2021 xnony
+//   Copyright (C) 2021 AnonyIndian (@xnony)
 
 //   This program is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
