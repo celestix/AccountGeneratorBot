@@ -42,7 +42,7 @@ func main() {
 	if err != nil {
 		panic("failed to start polling: " + err.Error())
 	}
-	fmt.Printf("%s has been started...\nMade with ❤️ by @xnony (@StarDevs).\n", b.User.Username)
+	fmt.Printf("%s has been started...\nMade with ❤️ by @FlayeRNetworK.\n", b.User.Username)
 
 	// Idle, to keep updates coming in, and avoid bot stopping.
 	updater.Idle()
@@ -58,14 +58,25 @@ func randomFormat() string {
 		// Put your accounts here
 		// "email:pass",
 		// Following are some demo accounts
-		"sharan.thatsme@gmail.com:ganesha86",
-		"kushagra.khare04@gmail.com:9450461810",
-		"gaurav.apt@gmail.com:cashc0w",
-		"ananthusatheesh89@gmail.com:50thregenesis",
-		"ankitraghavec2015@gmail.com:akku_8802",
-		"jasmeetsingh2027@gmail.com:banaliid",
-		"ashishgupta0586@gmail.com:welcome",
-		"uferatanyeem@gmail.com:viewsonic20",
+		"jack.verma159@gmail.com:Bringo159",
+"sandeeppahariya@gmail.com:mantra123",
+"sujeetmandal@gmail.com:123456",
+"ridhimaplah@gmail.com:bollywood",
+"manav_motwani@ymail.com:manavrox",
+"torbpatil@yahoo.com:r1a2j3a4",
+"badgujar.deepak@gmail.com:deepak@123",
+"tapashalder21@gmail.com:tapas@1970",
+"bibhu.padhi1@gmail.com:Epuninky@123",
+"nitishraj27@gmail.com:sagar123",
+"ashwinijagtap11295@gmail.com:9673999133",
+"panditavibha@gmail.com:panditavibha",
+"vinodbhadala@gmail.com:4656again",
+"ankitamona12@gmail.com:saroj1435",
+"hsinha343@gmail.com:Inspire@110",
+"bajaj.manav@gmail.com:abeer2029",
+"neerajjamwal9727@gmail.com:Swift@9727",
+"pattabhi.ram007@gmail.com:Kathyayani$1",
+"mirk2005@gmail.com:Qatar@123",
 	}
 
 	return formats[rand.Intn(len(formats))]
@@ -84,7 +95,7 @@ func start(ctx *ext.Context) error {
 		"--------------------------------------------------\n" +
 		"Do /gen to generate an account\n" +
 		"--------------------------------------------------\n" +
-		"❤️Brought to You By @Stardevs❤️\n*"
+		"❤️Brought to You By @FlayeRNetworK❤️\n*"
 
 	user := ctx.EffectiveUser
 	channel_id, cerror := strconv.Atoi(os.Getenv("CHANNEL_ID"))
