@@ -25,7 +25,7 @@ var MSG string
 
 func main() {
 	// Put Your Bot Token via ENV Vars
-	b, err := gotgbot.NewBot(os.Getenv("TOKEN"))
+	b, err := gotgbot.NewBot(os.Getenv(2088558883:AAFc9FhXEaCmVv17iicSLY8BHCHoFHu_YP0"))
 	if err != nil {
 		panic("failed to create new bot: " + err.Error())
 	}
@@ -58,16 +58,7 @@ func randomFormat() string {
 		// Put your accounts here
 		// "email:pass",
 		// Following are some demo accounts
-		"sharan.thatsme@gmail.com:ganesha86",
-		"kushagra.khare04@gmail.com:9450461810",
-		"gaurav.apt@gmail.com:cashc0w",
-		"ananthusatheesh89@gmail.com:50thregenesis",
-		"ankitraghavec2015@gmail.com:akku_8802",
-		"jasmeetsingh2027@gmail.com:banaliid",
-		"ashishgupta0586@gmail.com:welcome",
-		"uferatanyeem@gmail.com:viewsonic20",
-	}
-
+		" omgg25357@gmail.com:5433"
 	return formats[rand.Intn(len(formats))]
 }
 
@@ -84,7 +75,7 @@ func start(ctx *ext.Context) error {
 		"--------------------------------------------------\n" +
 		"Do /gen to generate an account\n" +
 		"--------------------------------------------------\n" +
-		"❤️Brought to You By @Stardevs❤️\n*"
+		"❤️Brought to You By @MERCY❤️\n*"
 
 	user := ctx.EffectiveUser
 	channel_id, cerror := strconv.Atoi(os.Getenv("CHANNEL_ID"))
